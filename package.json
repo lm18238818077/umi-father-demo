@@ -1,0 +1,26 @@
+{
+  "name": "umi-father-demo",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "doc:dev": "umi-lib doc dev",
+    "doc:build": "umi-lib doc build",
+    "doc:deploy": "umi-lib doc deploy",
+    "dev": "umi-lib build --watch",
+    "build": "umi-lib build",
+    "pub": "yarn run test && yarn publish",
+    "test": "umi-test"
+  },
+  "dependencies": {
+    "umi-library": "^1.6.0",
+    "umi-test": "^1.9.6"
+  },
+  "peerDependencies": {
+    "react": "^16.6.0"
+  }
+}

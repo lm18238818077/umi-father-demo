@@ -1,0 +1,55 @@
+{
+  "config": {
+    "title": "Umi Father Demo",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "1.0.1",
+    "repository": false,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-",
+    "typescript": false,
+    "theme": "E:/umi-demo/umi-library-demo/node_modules/docz-theme-umi/es/index.js",
+    "base": "/umi-father-demo",
+    "plugins": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "props": [],
+  "entries": [
+    {
+      "key": "src/Foo/index.mdx",
+      "value": {
+        "name": "Foo",
+        "route": "/umi-father-demo/",
+        "id": "9ffac60f9df7c4b4c3044c83aed07fe1",
+        "filepath": "src/Foo/index.mdx",
+        "link": "",
+        "slug": "src-foo-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "foo-component",
+            "depth": 1,
+            "value": "Foo Component"
+          },
+          {
+            "slug": "normal-foo",
+            "depth": 2,
+            "value": "Normal Foo"
+          },
+          {
+            "slug": "large-foo-with-playground",
+            "depth": 2,
+            "value": "Large Foo with playground"
+          }
+        ]
+      }
+    }
+  ]
+}
